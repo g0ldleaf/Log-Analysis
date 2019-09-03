@@ -1,0 +1,21 @@
+We noticed that the GET requsts start receiving 404 errors at one point.
+We asked some questions to follow up:
+
+Alex Rivie 5:09 PM
+Hi Frank, does /Minimal-Text/css/style.css still exist on the server
+Frank Rose 5:09 PM
+nope
+Sarah Gold 5:14 PM
+Did somebody purposefully delete the style sheet around 11:45pm on 8/25?
+Frank Rose 5:15 PM
+A new build was deployed around that time
+Alex Rivie 5:17 PM
+Is there a reason why pages are still referencing that file? We are getting 404 errors for /Minimal-Text/css/style.css
+Sarah Gold 5:21 PM
+Did somebody from our design team deploy it as a planned update?
+Frank Rose 5:23 PM
+It was deployed as planned. Looks like someone on the dev team made a mistake.
+Sarah Gold 5:24 PM
+Silly programmer
+
+In conclusion, the web dev department didn't update the code to point at the new css file.
